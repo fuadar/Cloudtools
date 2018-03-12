@@ -7,4 +7,5 @@ id_rsa
 *.json
 *.sh
 *jar*
-sshtunnet
+sshtunnel
+pkey
