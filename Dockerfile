@@ -26,6 +26,7 @@ COPY sqlcl* /data
 COPY ftm*.zip /data
 RUN unzip sqlcl-* -d /data
 RUN unzip ftm*.zip -d /data 
+COPY oracle.dbtools.jdbcrest-0.1.0.249.0854.jar /data/sqlcl/lib
 RUN  wget https://bootstrap.pypa.io/get-pip.py 
 #COPY get-pip.py /data
 RUN python3.4 get-pip.py

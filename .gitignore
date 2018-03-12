@@ -1,0 +1,9 @@
+*.zip
+id_rsa
+*.pub
+PrivateKey
+*test*
+*old*
+*.json
+*.sh
+

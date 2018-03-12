@@ -9,7 +9,8 @@ The following files need to be downloaded
 2. PSMcli from https://docs.oracle.com/en/cloud/paas/java-cloud/pscli/downloading-command-line-interface.html
 3. Ftmcli to manage uploads and downloads of files from Object Store.
 https://docs.oracle.com/en/cloud/iaas/storage-cloud/csclr/preparing-use-ftm-cli.html#GUID-5BB8647F-DDAD-4371-A519-1116402245FB
-
+4. JDBC Rest Data Services JDBC Driver 
+http://www.oracle.com/technetwork/developer-tools/rest-data-services/downloads/ords-beta-173-3873522.html
 
 The image will install python 34 and pip and download oci-cli as well.
 
@@ -18,8 +19,16 @@ This will give user access to the PaaS Service Manager Cli, Oracle Cloud Infrast
 the Installs will be in /data volume 
 
 you can have a /files logical volume to allow for psm setup commands and have json files for creating services etc
+i
+
 Example Docker run command for this 
+
+
 docker run \
   --interactive --tty --rm \
   --volume "$PWD":/data \
   oracle/cloudtools:2.0.6 "$@"
+
+Example Commands in the Sh
+
+# 
