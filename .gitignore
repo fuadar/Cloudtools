@@ -1,12 +1,10 @@
 *.zip
 id_rsa
 *.pub
-privateKey
+*private*
 *test*
 *old*
 *.json
 *.sh
 *jar*
-
-sshtunnel
-
+sshtunnet
