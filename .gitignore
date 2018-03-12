@@ -1,9 +1,12 @@
 *.zip
 id_rsa
 *.pub
-PrivateKey
+privateKey
 *test*
 *old*
 *.json
 *.sh
+*jar*
+
+sshtunnel
 
